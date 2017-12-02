@@ -10,4 +10,4 @@ def index():
 def profile(name):
     return render_template("profile.html", name=name)
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
